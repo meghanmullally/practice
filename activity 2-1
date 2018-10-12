@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <header>Sectioning Elements: Activity</header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <aside>
+    <p>
+      ordered list here 
+    </p>
+    </aside>
+  <section>
+    <h1> Hello </h1>
+  </section>
+<article>
+  <h2> Practice </h2>
+</article>
+
+<footer>
+By: Meghan Mullally
+Date: October 11, 2018
+</footer>
+
+</html>
