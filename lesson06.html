@@ -17,6 +17,10 @@ article:hover {
    color: orange;
  }
 
+ [href^="http:"] {
+   background-color: red;
+ }
+
  a:hover{
    font-weight: bold;
  }
@@ -29,18 +33,38 @@ aside a:visited{
   font-style: italic;
 }
 
+div[class^="card"] {
+  width: 4rem;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 5px gray;
+  margin: 1rem;
+}
+
+div.card-bold {
+  box-shadow: 3px 3px 8px black;
+}
+
 h2:hover{
   background-color: lightgrey;
 }
 
+section p:nth-child(odd) {
+  color: magenta;
+}
+section p:nth-child(even) {
+  color: blue;
+}
 
 footer a:hover{
   text-decoration: underline;
-  border: 3px solid orange;
 }
 
 footer a:visited{
   color: magenta;
+}
+
+footer:hover{
+  border: 3px solid orange;
 }
   </style>
 
@@ -58,8 +82,8 @@ footer a:visited{
         <p>Lorem 5</p>
         <p>Lorem 6</p>
         <p>Lorem 7</p>
-      </section>
 
+      </section>
       <section>
         <h2>Common Fillings</h2>
         <ul>
@@ -68,6 +92,7 @@ footer a:visited{
           <li>Barbacoa</li>
           <li>Soyrizo</li>
         </ul>
+
       </section>
     </article>
 
@@ -86,6 +111,10 @@ footer a:visited{
         </ol>
       </aside>
     </article>
+
+<div class="card-bold">alala hello </div>
+   <div class="card">hello world!! </div>
+   <div class="card-bold">just some text</div>
 
     <footer>
       <p>This page handmade by <a href="https://en.wiktionary.org/wiki/awesome">[your name here]</a></p>
