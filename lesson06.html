@@ -33,6 +33,20 @@ aside a:visited{
   font-style: italic;
 }
 
+.delay {
+  font-size: 14px;
+  background-color: pink;
+  transition-property: background-color;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.delay:hover {
+  background-color: green;
+  font-size: 36px;
+}
+
+
 div[class^="card"] {
   width: 4rem;
   border: 1px solid gray;
@@ -64,7 +78,7 @@ footer a:visited{
 }
 
 footer:hover{
-  border: 3px solid orange;
+  border: 3px solid purple;
 }
   </style>
 
@@ -73,7 +87,7 @@ footer:hover{
   <body>
     <article>
       <h1>All About Tacos</h1>
-      <section>
+      <section id="delay">
         <h2>History</h2>
         <p>Lorem 1</p>
         <p>Lorem 2</p>
