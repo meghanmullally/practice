@@ -4,18 +4,43 @@
     <meta charset="utf-8">
     <title>selector practice</title>
     <style>
+
+article:hover {
+  border: 1px solid red;
+  padding: 1rem;
+}
+
  a {
    text-decoration: none;
  }
  a:visited {
    color: orange;
  }
+
+ a:hover{
+   font-weight: bold;
+ }
+
+aside a:hover{
+  font-size: 20px;
+}
+
 aside a:visited{
   font-style: italic;
 }
 
+h2:hover{
+  background-color: lightgrey;
+}
+
+
+footer a:hover{
+  text-decoration: underline;
+  border: 3px solid orange;
+}
+
 footer a:visited{
-  color: magenta; 
+  color: magenta;
 }
   </style>
 
